@@ -219,7 +219,7 @@ def writeresults():
         outFile.write(tmpOut + "\n")
     outFile.close()
 
-###########################################################################################################################
 
-assignment(accuracy = 0.001, maxIter=1000)
-writeresults()
+if __name__ == '__main__':
+    assignment(accuracy = 0.001, maxIter=1000)
+    writeresults()
